@@ -16,5 +16,25 @@ public class Main {
         {
             System.out.print(c + " ");
         }
+        System.out.println("\n");
+        for(int c = 0; c < 19; c += 3)
+        {
+            System.out.print(c + " ");
+        }
+        System.out.println("\n");
+        for(int c = 10; c >= 0; c -= 2)
+        {
+            System.out.print(c + " ");
+        }
+        System.out.println("\n");
+        for(int row = 1; row <= 5; row ++)
+        {
+            for(int column = 1; column <= 5; column++)
+            {
+                System.out.print("* ");
+            }
+            System.out.println("\n");
+        }
+        System.out.println("\n");
     }
 }
