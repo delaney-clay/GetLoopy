@@ -11,5 +11,10 @@ public class Main {
         {
             System.out.print(c + " ");
         }
+        System.out.println("\n");
+        for(int c = 30; c >= 0; c--)
+        {
+            System.out.print(c + " ");
+        }
     }
 }
